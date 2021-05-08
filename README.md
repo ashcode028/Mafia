@@ -48,7 +48,9 @@ If any invalid input is given, it is handled properly.
 Detective, or Healer) on their own or be allotted a character randomly by the program.\
 After allocating the user his/her role, there should be N/5 Mafias, N/5 Detectives, max {1,
 N/10} healers, and the remaining players should be commoners.\
-Here, the ‘/’ operator is floored division. For example, for N=11, there will be 2 mafias,2 detectives, 1 healer, and 6 commoners.\
+Here, the ‘/’ operator is floored division. For example, for N=11, there will be 2 mafias,2 detectives, 1 healer, and 6 commoners.
+
+
 __[B] Gameplay__
 - The game will run in rounds. In each round, there will be fixed steps that are followed.
   - Firstly the Mafias choose to kill a person(other than mafias). If the user is a mafia
